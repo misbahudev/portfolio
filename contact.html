@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - SmartDev Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="nav-container">
+        <!--<div class="logo">
+            <img src="images/logo.jpg" alt="logo" width="70px">
+        </div>-->
+
+        <div class="name">
+            <h1>Smartdev Creatives</h1>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="testimony.html">Testimony</a></li>
+            <li><a href="contact.html" class="btn active">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- CONTACT PAGE -->
+<section class="contact-page">
+    <div class="container">
+
+        <!-- PAGE HEADER -->
+        <div class="contact-header">
+            <h1>Get in Touch</h1>
+            <p>I'd love to hear from you! Whether you have a question, want to collaborate, or just want to say hi, feel free to reach out.</p>
+        </div>
+
+        <!-- CONTACT CONTENT -->
+        <div class="contact-content">
+
+            <!-- CONTACT INFO -->
+            <div class="contact-info">
+                <h2>Contact Info</h2>
+                <p><strong>Name:</strong> Misbahu Habib</p>
+                <p><strong>Phone:</strong> 08065058518</p>
+                <p><strong>Email:</strong> mhabib20@gmail.com</p>
+
+                <h3>Follow Me</h3>
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com/misbahu.habib" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li><a href="https://www.twitter.com/misbahuhabib" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.instagram.com/misbahuhabib" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/misbahuhabib" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                </ul>
+            </div>
+
+            <!-- CONTACT FORM -->
+            <div class="contact-form">
+                <h2>Send a Message</h2>
+                <form action="https://formspree.io/f/mdkwjdqd" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+
+        <!-- PROJECT SUBMISSION FORM -->
+        <section class="project-submit">
+            <h2>Send Your Project</h2>
+            <p>
+                Have a project or design you want me to review or work on?
+                Upload it below and I’ll get back to you.
+            </p>
+
+            <form action="https://formspree.io/f/mdkwjdqd" method="POST" class="submit-form" enctype="multipart/form-data">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+
+                <select name="project-type" required>
+                    <option value="">Select Project Type</option>
+                    <option value="brand">Brand Design</option>
+                    <option value="poster">Poster Design</option>
+                    <option value="social">Social Media Design</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <textarea name="description" rows="5" placeholder="Brief description of your project" required></textarea>
+
+                <input type="file" name="project-file" required>
+
+                <button type="submit">Submit Project</button>
+            </form>
+        </section>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>&copy; 2026 SmartDev Hub. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
